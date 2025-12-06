@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock Paper Scissor</title>
+    <link rel = "stylesheet" href = "style.css">
+    <link rel = "stylesheet" href = "style1.css">
+
+</head>
+<body>
+    <div class = "container">
+        <nav>
+            <div id = "Logo">
+                <img src = /logo.png alt = "logo" id = "logo">
+                <h3 id = "name">Arcade Clash</h3>
+            </div>
+            <ul id = "nav-links">
+                <li>
+                    <a href="#">Play A Game </a>
+                    <a href = "#">How To Play</a>
+                    <a href = "#">Setting</a>
+                </li>
+            </ul>
+        </nav>
+
+    </div>
+
+
+
+    <main>
+        <div class="name"><h1>ROCK • PAPER • SCISSORS</h1></div>
+        <div class="circlebox">
+            <div class="circle1">
+                <img src = "/bot.png" alt="bot">
+            </div>
+            <img id = "VS" src = "VS.png">
+            <div class="circle2"><img src = "/player.png" alt="bot"></div>
+        </div>
+
+        <div class="name">
+            <div class="Computer" class = "hidden1">COMPUTER</div>
+            
+            <div class="Player" class = "hidden1">PLAYER</div>
+        </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        <div class = "Stage2 hidden">
+
+        <div class = "After-Click ">
+            <div class = "ComputerChoice">  COMPUTER CHOICE:</div>
+            <div class="PlayerChoice">CHOOSE YOUR WEAPON:</div>
+        </div>
+
+        <div class = "After-Click-Images ">
+            <img id = "question" src = "\question.png" alt="Question">
+            <div class="Weapon">
+                <div class="item">
+                    <img id="rock" src="stone.png" style="cursor: pointer;">
+                </div>
+
+                <div class="item">
+                    <img id="paper" src="paper.png" style="cursor: pointer;">
+                </div>
+
+                <div class="item">
+                    <img id="scissor" src="scissor.png" style="cursor: pointer;">
+                </div>
+
+
+            </div>
+        </div>
+        </div>
+
+        <div><button id = "Fight" class = "hidden1">FIGHT</button></div>
+
+
+
+
+    </main>
+
+
+
+
+    <audio id = "bg-music" src = "music.mp3" loop></audio> 
+    
+    <script src = "backend.js"></script>
+    
+</body>
+</html>

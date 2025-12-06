@@ -1,0 +1,72 @@
+.hidden{
+display: none;
+}
+
+
+.After-Click{
+    display: flex;
+    
+
+}
+.PlayerChoice,.ComputerChoice{
+    color: white;
+    font-size: 24px;
+    font-weight: 700px;
+
+}
+.PlayerChoice{
+    margin-left:430px;
+}
+.ComputerChoice{
+    margin-left: 110px;;
+    position: relative;
+    left : 10px;
+}
+#question{
+    height: 150px;
+    width: 150px;
+    margin-left: 100px;
+    position: relative;
+    left : 50px;
+    animation : floatpink 1s infinite alternate
+}
+@keyframes floatpink {
+from{transform:translateY(0px);filter: drop-shadow(0 0 5px rgb(212,0,166));}
+    to{
+       transform:  translateY(10px); filter: drop-shadow(0 0 20px rgb(212,0,166))
+    }    
+}
+.After-Click-Images{
+    display: flex;
+    gap: 400px;
+}
+
+.Weapon{
+    display: flex;
+    gap: 20px;
+    
+}
+
+.item {
+    display: inline-block;
+    animation: floatblue 1s infinite alternate;
+}
+
+.item img {
+    height: 150px;
+    width: 150px;
+    transition: 0.5s;
+}
+
+.item img:hover {
+    transform: scale(1.4);
+}
+
+@keyframes floatblue {
+    from { transform: translateY(0px); filter: drop-shadow(0 0 5px rgb(0, 178, 223)); }
+    to {
+        transform: translateY(10px); 
+        filter: drop-shadow(0 0 70px rgb(1, 163, 204));
+    }
+}
+

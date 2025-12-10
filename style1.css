@@ -70,3 +70,28 @@ from{transform:translateY(0px);filter: drop-shadow(0 0 5px rgb(212,0,166));}
     }
 }
 
+
+
+
+
+.hidden1{
+     opacity: 0;
+    pointer-events: none;
+}
+.center {
+    animation: goCenter 0.5s ease forwards;
+}
+@keyframes goCenter {
+    from {
+        transform: translateX(0);
+    }
+    to {
+        transform: translateX(170px); /* moves rock → paper position */
+    }
+}
+
+.disable{
+    pointer-events: none;
+}
+
+

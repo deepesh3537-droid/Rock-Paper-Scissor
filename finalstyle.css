@@ -1,0 +1,15 @@
+.resultanimation{
+    position: relative;
+    bottom: 250px;
+    animation : finaltouch 2s infinite alternate;
+
+}
+
+@keyframes finaltouch {
+   from{transform:translateY(0px);filter: drop-shadow(0 0 5px rgb(0, 178, 223));}
+    
+    to {
+    transform: translateY(10px);
+    filter: drop-shadow(0 0 20px rgb(212, 0, 166));
+  }
+}
